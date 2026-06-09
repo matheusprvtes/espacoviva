@@ -1,0 +1,15 @@
+Azul principal
+#E7F2F8
+Rosa suave
+#E8CFCF
+Amarelo amanteigado
+#F4ECD7
+Verde sálvia claro
+#C9D8C5
+Lavanda suave
+#D1C2D9
+Off white
+#F8F7F4
+Logo
+#008299
+#563687
