@@ -377,9 +377,13 @@ section {
 
 /* Testimonials */
 .testimonials-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 1rem;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding-bottom: 1rem;
 }
 
 .testimonial-card {
@@ -404,6 +408,23 @@ section {
   border-radius: 50%;
   object-fit: cover;
   border: 2px solid var(--primary-dark);
+}
+
+/* Image Testimonials */
+.image-testimonial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.testimonial-img {
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-soft);
+  object-fit: contain;
 }
 
 /* FAQ Accordion */
