@@ -68,4 +68,15 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // 4. Hero Carousel Logic
+  const carouselImages = document.querySelectorAll('.carousel-img');
+  if (carouselImages.length > 1) {
+    let currentImageIndex = 0;
+    setInterval(() => {
+      carouselImages[currentImageIndex].classList.remove('active');
+      currentImageIndex = (currentImageIndex + 1) % carouselImages.length;
+      carouselImages[currentImageIndex].classList.add('active');
+    }, 4000);
+  }
+
 });
