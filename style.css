@@ -173,7 +173,6 @@ p.subtitle {
 
 section {
   position: relative;
-  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -181,6 +180,7 @@ section {
 
 #hero {
   padding-top: 120px;
+  min-height: 100vh;
 }
 
 /* Backgrounds */
